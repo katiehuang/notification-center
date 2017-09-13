@@ -1,0 +1,31 @@
+.notificationItem {
+  background-color: #fff;
+  margin: 10px auto;
+  display: flex;
+  padding: 10px;
+}
+
+.notificationItem .name {
+  color: red;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0;
+}
+
+.notificationItem .message {
+  color: #97a8bc;
+  font-size: 16px;
+}
+
+.notificationItem .datetime {
+  color: #97a8bc;
+  font-size: 12px;
+}
+
+.notificationItem .left {
+  flex: 1;
+}
+
+.notificationItem .right {
+  flex: 3;
+}
